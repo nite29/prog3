@@ -3,14 +3,14 @@
  * with the identification number, account name, and a cash balance.
  * 
  * @author Junsay, Andre Renee D.
- * @author Almin, Wesner C.
+ * @author Almin, Wesner III C.
  */
 public class BankAccount {
 	
 	private int idNumber;
 	private String name;
 	private double cashBalance;
-	
+
 	/**
 	 * BankAccount constructor with an identification number and account name.
 	 * Initial cash balance is set to 0
@@ -83,3 +83,7 @@ public class BankAccount {
 		return this.idNumber+" "+this.name+" : "+this.cashBalance;
 	}
 }
+
+
+
+
